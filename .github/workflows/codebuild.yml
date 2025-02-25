@@ -3,7 +3,7 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-GHA-Non-Enterprise-Runner-Registration-4-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-GHA-Non-Enterprise-Runner-Registration-6-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World"
       - run: sleep 2m
