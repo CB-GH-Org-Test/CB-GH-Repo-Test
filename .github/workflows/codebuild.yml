@@ -3,7 +3,7 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-GHA-Org-Webhook-Filter-Gamma-Test-4-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-GHA-Org-Webhook-Filter-Gamma-Test-3-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World"
       # - run: sleep 2m
