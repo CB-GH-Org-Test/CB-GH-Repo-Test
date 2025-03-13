@@ -3,7 +3,7 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-GHA-GHEC-Approval-Workflow-Beta-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-GHA-GHEC-Approval-Workflow-Beta-2-${{ github.run_id }}-${{ github.run_attempt }}
       - deployment-status-override:true
     environment: Approvals
     steps:
