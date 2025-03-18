@@ -5,6 +5,7 @@ jobs:
     runs-on:
       - codebuild-GHA-Deployment-Status-Perm-IAD-${{ github.run_id }}-${{ github.run_attempt }}
       - deployment-status-override:true
+      - random-fake-label-test:true
     environment: Approvals
     steps:
       - run: echo "Hello World"
